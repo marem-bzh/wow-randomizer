@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WOW Randomizer</title>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-git.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" media="screen" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Randomizer</h1>
+            <h4>
+                Random characters for WoW: Shadowlands
+            </h4>
+
+            <form>
+                <div class="form-group row">
+                    <label for="inputFaction" class="control-label col-form-label col-sm-2">Faction</label>
+                    <div class="col-sm-10">
+                        <select class="form-control inputFaction" name="inputFaction" id="inputFaction">
+                            <option>Aléatoire</option>
+                            <option>Horde</option>
+                            <option>Alliance</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="outputResult" class="col-sm-2 col-form-label">Résultat</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control outputResult" id="outputResult" disabled>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btnGenerate">Générer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
