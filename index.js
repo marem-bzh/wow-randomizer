@@ -1,3 +1,5 @@
+// TODO English translation of specs and races
+
 jQuery(function ($) {
     // View
     const inputFaction = $("select.inputFaction");
@@ -5,10 +7,10 @@ jQuery(function ($) {
     const btnGenerate = $(".btnGenerate");
 
     // Data
-    const H = "Horde", A = "Alliance", M = "Mâle", F = "Femelle";
-    const SHA = "Chaman", DK = "Chevalier de la mort", HUN = "Chasseur",
-        WL = "Démoniste", DRU = "Druide", WAR = "Guerrier", MAG = "Mage",
-        PAL = "Paladin", PRI = "Prêtre", THI = "Voleur", MON = "Moîne", DH = "Chasseur de démons";
+    const H = "Horde", A = "Alliance", M = "Male", F = "Female";
+    const SHA = "Shaman", DK = "Death Knight", HUN = "Hunter",
+        WL = "Warlock", DRU = "Druid", WAR = "Warrior", MAG = "Mage",
+        PAL = "Paladin", PRI = "Priest", THI = "Thief", MON = "Monk", DH = "Demon Hunter";
 
     const factions = [H, A];
     const genders = [M, F];
